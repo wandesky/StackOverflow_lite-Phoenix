@@ -1,0 +1,79 @@
+.container {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+.main {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 0 10px 6px -6px #777;
+  background: #03c7d9;
+}
+.tab {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login,
+.sign-up {
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  background: #198791;
+  color: #000;
+  text-align: center;
+}
+.active {
+  background: #03c7d9;
+}
+#login,
+#register {
+  padding: 10px;
+}
+#register {
+  display: none;
+}
+.user-entry {
+  border: none;
+  background: inherit;
+  border-bottom: black 2px solid;
+  font-size: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.user-entry:focus {
+  outline: none;
+}
+.forgot {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+.btn {
+  width: 100;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: #444 2px solid;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:active {
+  border: none;
+  margin-top: 4px;
+}
+.forgot {
+  text-decoration: none;
+  display: block;
+}
+.center {
+  text-align: center;
+}

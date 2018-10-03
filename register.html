@@ -10,17 +10,6 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li class="navitem">Nav item 1</li>
-                    <li class="navitem">Nav item 2</li>
-                    <li class="navitem">Nav item 3</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <div class="container">
         <div class="main">
             <div class="tab">
@@ -28,17 +17,19 @@
                 <a href="#" class="sign-up">Sign Up</a>
             </div>
             <div id="login">
-                <h2>Login</h2>
                 <form action="">
                     <label for="username">Username</label>
                     <input type="text" name="username" id="username" class="user-entry"><br>
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" class="user-entry"><br>
-                    <input type="submit" value="Login" class="btn">
+                    <div class="center">
+                        <a href="#" class="forgot">Forgot Password?</a>
+                        <input type="submit" value="Login" class="btn">
+                    </div>
+
                 </form>
             </div>
             <div id="register">
-                <h2>Join Us</h2>
                 <form action="">
                     <label for="user">Username</label>
                     <input type="text" name="username" id="user" class="user-entry" required><br>
@@ -53,7 +44,7 @@
             </div>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </body>
 
 </html>
