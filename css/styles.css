@@ -1,0 +1,33 @@
+.container{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.content{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#btn{
+    margin: 0 auto;
+    width: 70px;
+    height: 30px;
+    background-color: skyblue;
+}
+
+#question{
+    margin: 0 auto;
+    border: solid black 1px;
+}
+
+.bg1{
+    background: radial-gradient(circle, skyblue 65%, rgb(255, 255, 255));
+}
