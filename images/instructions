@@ -1,0 +1,46 @@
+Hello team Phoenix,
+This is the file structure for our user interface
+
+-----------------------------------------------------------------------------
+
+\css\
+    -stlyes.css
+
+\images\
+    -image one
+    -image two
+    -image three etc
+
+\js\
+    -script.js
+
+\index.html             (our landing page)
+
+\ask-questions.html     (the page where a user can ask a question)
+
+\register.html          (page to be used for registering new user)
+
+\all-questions.html     (page to be used to view all questions)
+
+-----------------------------------------------------------------------------
+
+When you get home, remember to do the following:
+    1. Design a mock-up of the page you are responsible for
+    2. Post an image of your mockup on our slack channel for review
+    3. Clone the repository (you can use the command below):
+        a. git clone https://github.com/KelynPNjeri/StackOverflow_lite-Phoenix.git
+        b. cd StackOverflow_lite-Phoenix
+    4. Position yourself at the UI branch (checkout the UI branch using the command below):
+        a. git checkout UI
+    5. Create a new branch for the page you are going to make: (ASSUMING I am to work on index.html)
+        a. git checkout -b ft-index-page
+    6. Once you have checked the feature branch (ft), start working on your file
+    7. When you are ready, push the files to github for us to review:
+        a. git add . 
+        b. git commit -m "give your commit a message"
+        c. git push --set-upstream origin ft-index-page   [remember to change ft-index-page with your branch name]
+        d. Create a pull request from github (let us know if you are stuck at this stage so that we assist you)
+
+Dont hesitate to inform us if you are stack at any stage,
+HAPPY CODING,
+wandesky was here
