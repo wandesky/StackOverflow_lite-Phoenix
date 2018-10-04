@@ -80,7 +80,7 @@ label {
 }
 .link:hover {
   font-weight: bold;
-
+}
 /** start of home page **/
 html,body {
   margin: 0;
@@ -173,21 +173,23 @@ text-decoration:underline;
   text-decoration: none;
 }
 .btn_home{
-  background-color: #3b5998;
+  background-color:#3b5998;
   border-color: #357ebd;
   color:#fff;
   cursor: pointer;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: bold;
+  
   border-width: 0;
   padding: 9px 17px;
-  text-transform: uppercase;
+  
   display: inline-block;
   margin-bottom: 0;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
   cursor: pointer;
-  font-size: 13px;
+  
   white-space: nowrap;
   line-height: 1.5384616;
   border-radius: 3px;
@@ -243,23 +245,42 @@ text-decoration:underline;
     float: left;
     width: 100px;
     height: 80px;
+    float: left;
   }
   
   .header h1 {
     position: relative;
-    top: 18px;
-    left: 10px;
+    /* top: 18px; */
+    /* left: 10px; */
     color: white;
+    float: left;
   }
-  .button {
+  .btn-reg-login {
+     /* top: 18px; */
     float: right;
+    border: none;
+    background: #3b5998;
+    padding: 10px 20px;
+    margin-right: 5px;
+    
+    top:10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
   }
-  
+  .btn_nav{
+text-decoration: none;
+  }
+  .nav-btn {
+    float: right;
+    margin-top: 18px !important;
+  }
 /** footer **/
 .footer{
     width: 100;
     background-color: #0A1D39;
     padding: 80px 0px;
+    bottom: 0px;
 }
 .wrapper{
     float: left;

@@ -10,23 +10,41 @@
 </head>
 
 <body>
+    <div class="header">
+        <img src="images/stacklogo.png" alt="logo" />
+        <h1>Stack Overflow Lite</h1>
+        <div class="nav-btn">
+            <a href="register.html" class="btn-reg-login btn_nav">
+                Register
+            </a>
+            <a href="signin.html" class="btn-reg-login btn_nav">
+                Login
+            </a>
+        </div>
+    </div>
     <div class="container">
         <div class="main">
             <div id="register">
                 <h2>Register</h2>
                 <form action="">
                     <label for="user">Username</label>
-                    <input type="text" name="username" id="user" class="user-entry" required><br>
+                    <input type="text" name="username" id="user" class="user-entry" required>
+                    <br>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" class="user-entry" required><br>
+                    <input type="email" name="email" id="email" class="user-entry" required>
+                    <br>
                     <label for="pass1">Password</label>
-                    <input type="password" name="pass1" id="pass1" class="user-entry" required><br>
+                    <input type="password" name="pass1" id="pass1" class="user-entry" required>
+                    <br>
                     <label for="pass2">Confirm Password</label>
-                    <input type="password" name="pass2" id="pass2" class="user-entry" required><br>
+                    <input type="password" name="pass2" id="pass2" class="user-entry" required>
+                    <br>
 
                     <div class="center">
                         <input type="submit" value="Sign Up" class="btn">
-                        <p> Already a member?<a href="signin.html" class="link">Login</a></p>
+                        <p> Already a member?
+                            <a href="signin.html" class="link">Login</a>
+                        </p>
                     </div>
                 </form>
             </div>

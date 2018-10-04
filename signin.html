@@ -10,19 +10,34 @@
 </head>
 
 <body>
-
+    <div class="header">
+        <img src="images/stacklogo.png" alt="logo" />
+        <h1>Stack Overflow Lite</h1>
+        <div class="nav-btn">
+            <a href="register.html" class="btn-reg-login btn_nav">
+                Register
+            </a>
+            <a href="signin.html" class="btn-reg-login btn_nav">
+                Login
+            </a>
+        </div>
+    </div>
     <div class="main">
         <div id="login">
             <h3>Login</h3>
             <form action="" id="login-form">
                 <label for="username">Username</label>
-                <input type="text" name="username" id="username" class="user-entry"><br>
+                <input type="text" name="username" id="username" class="user-entry">
+                <br>
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" class="user-entry"><br>
+                <input type="password" name="password" id="password" class="user-entry">
+                <br>
                 <div class="center">
                     <a href="#" class="forgot">Forgot Password?</a>
                     <input type="submit" value="Login" class="btn">
-                    <p>Not a member?<a href="register.html" x>Sign Up</a></p>
+                    <p>Not a member?
+                        <a href="register.html" x>Sign Up</a>
+                    </p>
                 </div>
 
             </form>
