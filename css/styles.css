@@ -1,78 +1,56 @@
-body {
-  background: #f7f7f7;
-}
-.container {
-  padding: 0;
-  margin: 0;
-  line-height: 1.5;
-}
-.main {
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  margin-top: 100px;
-  text-align: center;
-  color: #fff;
-  box-shadow: 0 10px 6px -6px #777;
-  background: #3b5998;
-}
-
-#login {
-  padding: 50px;
-  display: inline-block;
-}
-#register {
-  padding: 0 50px;
-  display: inline-block;
-}
-label {
-  float: left;
-}
-.user-entry {
-  border: none;
-  background: inherit;
-  border-bottom: #fff 2px solid;
-  font-size: 10px;
+/**header**/
+.header {
   width: 100%;
-  margin-bottom: 10px;
+  height: 80px;
+  background-color: #0a1d39;
 }
-.user-entry:focus {
-  outline: none;
-}
-.forgot {
-  text-decoration: none;
-  color: #000;
-  margin-bottom: 10px;
-  text-align: center;
-  display: block;
+.header img {
+  float: left;
+  width: 100px;
+  height: 80px;
 }
 
-.btn {
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  color: white;
+}
+.button {
+  float: right;
+}
+
+/** footer **/
+.footer {
   width: 100;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  border-bottom: #444 2px solid;
-  cursor: pointer;
-  text-align: center;
+  background-color: #0a1d39;
+  padding: 80px 0px;
 }
-.btn:active {
-  border: none;
-  margin-top: 4px;
-}
-.forgot {
+.wrapper {
+  float: left;
+  display: inline-block;
+  color: white;
   text-decoration: none;
-  display: block;
-  color: #fff;
+  text-transform: lowercase;
+  list-style: none;
 }
-.forgot:hover {
-  text-decoration: underline;
-  font-weight: bold;
+ul {
+  float: left;
+  /* margin-right: 30px; */
+  list-style: none;
 }
-.center {
-  text-align: center;
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+  /* padding: 30px; */
+  list-style: none;
+}
+
+p {
+  color: white;
+  float: right;
 }
 .link {
   color: #fff;
