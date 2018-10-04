@@ -61,6 +61,14 @@ html,body {
   
 
 }
+most_asked_link{
+color:#0000ff;
+	text-decoration:none;
+}
+most_asked_link:hover,most_asked_link:hover{
+
+text-decoration:underline;	
+}
 .searchinput{
     cursor: pointer;
     
