@@ -12,9 +12,13 @@
 <body>
     <div class="container">
         <div class="main">
-            <div class="tab">
-                <a href="#" class="login active">Login</a>
-                <a href="#" class="sign-up">Sign Up</a>
+            <div class="tab registration">
+                <div onclick="swap(this);" data-tab="login" class="login active">
+                    Login
+                </div>
+                <div onclick="swap(this);" data-tab="signup" class="sign-up">
+                    Sign Up
+                </div>
             </div>
             <div id="login">
                 <form action="">
@@ -44,6 +48,18 @@
             </div>
         </div>
     </div>
+    <script>
+        function swap(referTo) {
+            if (referTo.getAttribute("data-tab") == "login") {
+                document.getElementsByClassName("login").classList.remove('active');
+                referTo.parentNode.classList.remove('registration');
+            }
+            else {
+                document.getElementById("register").classList.add('active');
+                referTo.parentNode.classList.add('registration');
+            }
+        }
+    </script>
 
 </body>
 
