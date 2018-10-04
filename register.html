@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="tab registration">
+                <div onclick="swap(this);" data-tab="login" class="login active">
+                    Login
+                </div>
+                <div onclick="swap(this);" data-tab="signup" class="sign-up">
+                    Sign Up
+                </div>
+            </div>
+            <div id="login">
+                <form action="">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" class="user-entry"><br>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="user-entry"><br>
+                    <div class="center">
+                        <a href="#" class="forgot">Forgot Password?</a>
+                        <input type="submit" value="Login" class="btn">
+                    </div>
+
+                </form>
+            </div>
+            <div id="register">
+                <form action="">
+                    <label for="user">Username</label>
+                    <input type="text" name="username" id="user" class="user-entry" required><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="user-entry" required><br>
+                    <label for="pass1">Password</label>
+                    <input type="password" name="pass1" id="pass1" class="user-entry" required><br>
+                    <label for="pass2">Confirm Password</label>
+                    <input type="password" name="pass2" id="pass2" class="user-entry" required><br>
+                    <input type="submit" value="Sign Up" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function swap(referTo) {
+            if (referTo.getAttribute("data-tab") == "login") {
+                document.getElementsByClassName("login").classList.remove('active');
+                referTo.parentNode.classList.remove('registration');
+            }
+            else {
+                document.getElementById("register").classList.add('active');
+                referTo.parentNode.classList.add('registration');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
