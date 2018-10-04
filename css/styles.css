@@ -1,3 +1,6 @@
+body {
+  background: #f7f7f7;
+}
 .container {
   padding: 0;
   margin: 0;
@@ -7,39 +10,28 @@
   width: 400px;
   height: 400px;
   margin: auto;
-  box-shadow: 0 10px 6px -6px #777;
-  background: #03c7d9;
-}
-.tab {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.login,
-.sign-up {
-  text-decoration: none;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  font-size: 20px;
-  background: #198791;
-  color: #000;
+  margin-top: 100px;
   text-align: center;
+  color: #fff;
+  box-shadow: 0 10px 6px -6px #777;
+  background: #3b5998;
 }
-.active {
-  background: #03c7d9;
+
+#login {
+  padding: 50px;
+  display: inline-block;
 }
-#login,
 #register {
-  padding: 10px;
+  padding: 0 50px;
+  display: inline-block;
 }
-#register {
-  display: none;
+label {
+  float: left;
 }
 .user-entry {
   border: none;
   background: inherit;
-  border-bottom: black 2px solid;
+  border-bottom: #fff 2px solid;
   font-size: 10px;
   width: 100%;
   margin-bottom: 10px;
@@ -73,7 +65,19 @@
 .forgot {
   text-decoration: none;
   display: block;
+  color: #fff;
+}
+.forgot:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 .center {
   text-align: center;
+}
+.link {
+  color: #fff;
+  text-decoration: underline;
+}
+.link:hover {
+  font-weight: bold;
 }
