@@ -2,7 +2,7 @@
 html,body {
   margin: 0;
   font-family:  'Source Code Pro', monospace;
-  background-color: #f4f4f4;
+  background-color: #f7f7f7;
   padding:0px;
   height:100% ;
   position:relative;
@@ -42,7 +42,7 @@ html,body {
   margin: 0 auto;
   height: 100px;
   top:0px;
-  background-color: #f4f4f4;
+  background-color: #f7f7f7;
   border: 1px solid transparent;
   border-radius: 3px;
   margin-bottom: 20px;
@@ -95,7 +95,7 @@ text-decoration:underline;
   text-decoration: none;
 }
 .btn_home{
-  background-color: #428bca;
+  background-color: #3b5998;
   border-color: #357ebd;
   color:#fff;
   cursor: pointer;
