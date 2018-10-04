@@ -22,21 +22,13 @@ html,body {
   padding:0 !important;
   
 }
-#questions{
-  position: relative;
-  top: 140px;
-  
- 
-
+.home_container{
+  top:10px;
 }
 
+
 #search{
-  position: fixed;
-	z-index: 1;
-  overflow-x: none;
-  left:30px;
   
-  right: 30px;
   text-align: center;
   width: 90%;
   margin: 0 auto;
@@ -61,11 +53,14 @@ html,body {
   
 
 }
-most_asked_link{
+.home_ul{
+  list-style: circle
+}
+.most_asked_link{
 color:#0000ff;
 	text-decoration:none;
 }
-most_asked_link:hover,most_asked_link:hover{
+.most_asked_link:hover,.most_asked_link:hover{
 
 text-decoration:underline;	
 }
@@ -119,9 +114,7 @@ text-decoration:underline;
   box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 }
 .home_div_left{
-  position: fixed;
-	z-index: 1;
-  overflow-x: none;
+  
   width: 25% !important;
   float: left;
   overflow-x: none;
@@ -148,6 +141,11 @@ text-decoration:underline;
 }
 .question_link:focus,.question_link:hover{
   text-decoration: underline;
+}
+.home_footer{
+  position:relative;
+  bottom:0px ;
+  clear:both;
 }
 /** end of home page **/
 
